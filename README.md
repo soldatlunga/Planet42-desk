@@ -1,2 +1,133 @@
-# Planet42-desk
-IT desktop support
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Planet42-Desk</title>
+
+</head>
+<style>
+	body {
+		background-image: url("https://wallpapers.com/images/hd/white-full-screen-with-stripes-k6sqdizwumrl3y8h.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	body {
+	  font-family: Calibri, sans-serif;
+	  color: blue;
+	  
+	}
+
+	.header {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  padding: 10px;
+	  background-color: #f1f1f1;
+	}
+
+	.header img {
+	  max-width: 100%;
+	  height: auto;
+	}
+
+	.header ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  display: flex;
+	}
+
+	.header li {
+	  margin-left: 20px;
+	}
+
+	.header a {
+	  text-decoration: none;
+	  color: blue;
+	}
+	
+</style>
+
+<body>
+	<div class="header">
+		<a href="https://www.planet42.com">
+			<img src="https://verdant-cap.com/wp-content/uploads/2022/01/Planet42.png" alt="Planet42" width="150">
+		</a>
+		<ul>
+			<li><a href="#">Knowledge Base</a></li>
+			<li><a href="#">Newsletter</a></li>
+			<li><a href="file:///C:/Users/LungaSoldatPlanet42/Desktop/Planet42-Desk/meet-the-team.html">Meet the Planet42 Team</a></li>
+			
+
+		</ul>
+
+	</div>
+
+	<h1>Planet42-Desk</h1>
+	<p>This is the home page of P42 ops. We try to fix where we can.</p>
+	<p>Our members are Estelle, Cameron, Bridget, Lunga and Nate.</p>
+	<p>You can download AnyDesk for Windows from <a href="https://anydesk.com/en/downloads/windows" target="_blank">here</a>.</p>
+	<p>Here are links to some important resources:</p>
+	<ul>
+        <li><a href="https://docs.google.com/spreadsheets/d/1uylfFSd1Nx3ooCmSrnQT5dJyLz6_9mhhuc9z0q0cLzQ/edit#gid=0" target="_blank">Menlyn Inventory</a></li>
+		<li><a href="https://docs.google.com/spreadsheets/d/1uylfFSd1Nx3ooCmSrnQT5dJyLz6_9mhhuc9z0q0cLzQ/edit#gid=0" target="_blank">Daily collections workflow</a></li>
+		<li><a href="https://docs.google.com/spreadsheets/d/11JIg5epVd-qmEYzbhg-3YyIk7d_43279LChGyAWxONc/edit#gid=1046278510" target="_blank">Planet42 leave sheet</a></li>
+		<li><a href="https://docs.google.com/spreadsheets/d/1piSyaKLqdqPR1stfiHbEGY_w3hU7IkKAVsdMldBzU5E/edit#gid=0" target="_blank">P42 extension list</a></li>
+		<li><a href="https://www.autotrader.co.za/dealer/planet42/70688?category=Cars" target="_blank">Autotrader P42 link</a></li>
+	</ul>
+
+	<h2>To report an issue please fill in the below</h2>
+	<form action="/path/to/send_email.php" method="POST">
+		<label for="name" >Name:</label>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="department">Department:</label>
+		<select id="department" name="department">
+			<option value="collections">Collections</option>
+			<option value="HR">HR</option>
+			<option value="web">Web</option>
+			<option value="fleet">Fleet</option>
+			<option value="recoveries">Recoveries</option>
+			<option value="validations">Validations</option>
+			<option value="accounting">Accounting</
+option>
+		</select><br>
+	  
+		<label for="priority">Priority:</label>
+		<select id="priority" name="priority">
+		  <option value="Urgent">Urgent</option>
+		  <option value="High">High</option>
+		  <option value="Medium">Medium</option>
+		  <option value="Low">Low</option>
+		</select><br>
+	  
+		<label for="issue-type">Issue Type:</label>
+		<select id="issue-type" name="issue-type">
+		  <option value="SwordFish">SwordFish</option>
+		  <option value="YellowMessenger">YellowMessenger</option>
+		  <option value="Buzzbox">Buzzbox</option>
+		  <option value="Microsip">Microsip</option>
+		  <option value="ASANA">ASANA</option>
+		  <option value="Hardware issue">Hardware issue</option>
+		  <option value="Any other system issue">Any other system issue</option>
+		</select><br>
+	  
+		<label for="subject">Subject:</label>
+		<input type="text" id="subject" name="subject" required><br>
+	  
+		<label for="message">Message:</label><br>
+		<textarea id="message" name="message" rows="5" cols="30" required></textarea><br>
+	  
+		<input type="hidden" name="to_email" value="Lunga@planet42.com">
+		<input type="submit" value="Submit">
+	  </form>
+	  
+	
+	<p> Built by Lunga</p>
+	
+
+</body>
+</html>
